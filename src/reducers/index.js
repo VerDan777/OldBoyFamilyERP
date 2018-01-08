@@ -1,5 +1,9 @@
-import { combineReducers } from 'redux';
-import  { reducer1 } from './reducer1';
-import  { reducer2 } from './reducer2';
-
-export default combineReducers({reducer1, reducer2});
+import { BADGE_DECREMENT, BADGE_INCREMENT } from "../Constants/index";
+export function reducer(state = {}, action ) {
+   switch(action.type) {
+       case 'PROFILE': {
+           return `${action.name}   ${action.surname}`
+     
+       }
+   }
+}

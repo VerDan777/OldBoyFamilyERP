@@ -3,7 +3,7 @@ import { muiTheme } from '../src/ThemeStyle';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from '../src/store';
-import Layout from '../src/Layout/index.jsx';
+import Layout  from '../src/Layout/index.jsx';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
