@@ -1,0 +1,8 @@
+.menu-item > div {
+    font-family: "RexBold",sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.menu-item > div > div > svg {
+    fill: #fff;
+}

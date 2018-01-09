@@ -3,3 +3,10 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+@font-face {
+  font-family: 'RexBold';
+  src: url('./assets/fonts/RexBold.woff2') format('woff2'),
+      url('./assets/fonts/RexBold.ttf') format('truetype'),
+      url('./assets/fonts/RexBold.woff') format('woff');
+}
